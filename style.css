@@ -73,11 +73,10 @@
 }
 
 .user-select::before {
-    position: fixed;
+    position: absolute;
     content: "";
     width: 100px;
     height: 100px;
-    top: 496px;
     background-color: rgba(0, 255, 255, 0.3);
     display: none;
 }
@@ -140,4 +139,12 @@
 
 .place-content-center {
     place-content: center;
+}
+
+#selecttrue {
+    position: relative;
+}
+
+#selectfalse {
+    position: relative;
 }
